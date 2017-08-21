@@ -5,6 +5,6 @@ function getTriangleArea (a, h) {
     return ("Nieprawidłowe dane");
 }
     return triangleArea;
-  }
+  
 console.log(getTriangleArea(10, 6) );
 var triangle1Area = getTriangleArea(10, 15);
