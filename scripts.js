@@ -1,10 +1,11 @@
 ﻿// scripts.js
-function getTriangleArea (a, h) {
-  var triangleArea = a*h/2;
-  if ((a <= 0) || (h <= 0)) {
-    return "Nieprawidłowe dane";
+function drawTree(treeHeight) {
+    for ( var i = 1 ; i < 6 ; i++ ) {
+    var star = '';
+   for ( var j = 1 ; j <= i ; j++ ) {
+     star += '*';
+   }
+    console.log(star);
+   }
 }
-    return triangleArea;
-  
-console.log(getTriangleArea(10, 6) );
-var triangle1Area = getTriangleArea(10, 15);
+  drawTree();
