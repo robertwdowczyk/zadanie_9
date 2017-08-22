@@ -4,6 +4,7 @@ var dinosaur = txt.replace('Velociraptor', 'Triceratopsa');
 console.log(dinosaur);
 var dinosaurUpperCased = dinosaur.toUpperCase();
 console.log(dinosaurUpperCased);
-var dinosaur = txt.replace('Velociraptor', 'Dinosaur')
-var partOfDinosaur = dinosaur.slice(lenght/2);
-console.log(partOfDinosaur);
+console.log(dinosaur);
+console.log(dinosaur.length);
+var partOftxt=dinosaur.slice(0,72.5)
+console.log(partOftxt);
