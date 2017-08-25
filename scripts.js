@@ -1,10 +1,8 @@
 ﻿// scripts.js
-function getTriangleArea (a, h) {
-  var triangleArea = a*h/2;
-  if ((a <= 0) || (h <= 0)) {
-    return "Nieprawidłowe dane";
+var button = document.getElementsByClassName('button');
+
+for (var i = 0; i < button.length; i++ ) {
+  var butt = button[i].innerHTML;
+  alert(butt);
+ 
 }
-    return triangleArea;
-  
-console.log(getTriangleArea(10, 6) );
-var triangle1Area = getTriangleArea(10, 15);
